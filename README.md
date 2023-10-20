@@ -1,6 +1,9 @@
 This repository contains code for the paper _Series of Hessian-Vector Products
 for Saddle-Free Newton Optimisation of Neural Networks_, submitted to TMLR.
 
+This code was co-authored by Ross Clarke (@rmclarke) and Elre Oldewage
+(@cravingoxygen).
+
 # Installation
 Our dependencies are fully specified in `requirements.txt`, which can be supplied to
 `pip` to install the environment.
