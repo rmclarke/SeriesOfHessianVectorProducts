@@ -1,0 +1,10 @@
+optimiser:
+  name: NewtonRootSFN
+  learning_rate: 1
+  damping: 1e-6
+  tolerance: 1e-3
+  commutation_tolerance: 1
+  eigenvalue_kwargs:
+    tolerance: 1e-3
+    max_num_steps: 20
+# validation_proportion: 0

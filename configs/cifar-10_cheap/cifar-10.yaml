@@ -1,0 +1,15 @@
+model:
+  name: ResNet18
+  num_classes: 10
+loss:
+  name: cross_entropy_loss
+  num_classes: 10
+dataset:
+  name: CIFAR10
+  normalise_inputs: False  # Handled through dataset transform
+  normalise_outputs: False
+  validation_proportion: 0.1  # 5000/50000
+
+num_epochs: 72
+batch_size: 100
+forward_pass_extra_kwargs: [is_training]

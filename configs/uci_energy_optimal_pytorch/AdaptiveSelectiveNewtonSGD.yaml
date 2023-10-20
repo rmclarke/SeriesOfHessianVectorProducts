@@ -1,0 +1,7 @@
+optimiser:
+  name: SelectiveNewtonSGD
+  initial_lambda: 0.38597755011056983
+  kfac_damping_factor: 0.95
+  kfac_adaptivity: True
+  kfac_damping_adaptation_interval: 1
+  kfac_prevent_bad_updates: False

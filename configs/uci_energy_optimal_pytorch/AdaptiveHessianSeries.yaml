@@ -1,0 +1,16 @@
+optimiser:
+  name: HessianSeriesOptimiser
+  num_update_steps: 20
+  initial_scale_factor: 100
+  scale_factor_multiplier: 1.0
+  scale_factor_method: lower_bound
+  acceleration_type: shanks
+  acceleration_order: 7
+  acceleration_kwargs:
+    # transform_type: t
+    inverse_func: samelson
+    modifier: sablonniere
+  adaptive_update: True
+  hessian_damping_factor: 0.95
+  initial_damping: 0.168434489551502
+  series_name: quasi-damped

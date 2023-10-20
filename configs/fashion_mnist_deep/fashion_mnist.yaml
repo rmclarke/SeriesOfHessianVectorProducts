@@ -1,0 +1,17 @@
+model:
+  name: MLP
+  output_sizes: [512, 512, 512, 10]
+  activation: relu
+  with_bias: True
+loss:
+  name: cross_entropy_loss
+  num_classes: 10
+dataset:
+  name: FashionMNIST
+  normalise_inputs: True
+  normalise_outputs: False
+  validation_proportion: 0.1666666667
+
+num_epochs: 10
+batch_size: 50
+#seed: 12345

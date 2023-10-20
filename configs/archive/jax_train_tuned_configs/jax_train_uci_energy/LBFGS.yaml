@@ -1,0 +1,6 @@
+optimiser:
+  name: WrappedLBFGS
+  # PyTorch defaults (convergence tolerances excluded)
+  maxiter: 20
+  maxfun: 25
+  maxcor: 100

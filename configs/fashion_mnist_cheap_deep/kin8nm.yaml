@@ -1,0 +1,15 @@
+model:
+  name: MLP
+  output_sizes: [27, 26, 1]
+  activation: relu
+  with_bias: True
+loss:
+  name: mse_loss
+dataset:
+  name: Kin8nm
+  normalise_inputs: True
+  normalise_outputs: True
+  validation_proportion: 0.2
+
+num_epochs: 1000
+batch_size: 7373

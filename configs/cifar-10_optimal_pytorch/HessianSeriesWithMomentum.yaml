@@ -1,0 +1,16 @@
+optimiser:
+  name: HessianSeriesOptimiser
+  learning_rate: 0.4673753598446213
+  momentum: 0.0683282942127461
+  num_update_steps: 9
+  initial_scale_factor: 100
+  scale_factor_multiplier: 1.0
+  scale_factor_method: lower_bound
+  acceleration_type: shanks
+  acceleration_order: 1
+  acceleration_kwargs:
+    inverse_func: samelson
+    modifier: sablonniere
+  series_name: damped
+batch_size: 50
+# validation_proportion: 0

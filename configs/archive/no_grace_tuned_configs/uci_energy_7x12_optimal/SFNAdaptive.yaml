@@ -1,0 +1,10 @@
+optimiser:
+  name: SelectiveNewtonSGD
+  initial_damping: 0.00772656607885264
+  kfac_damping_factor: 0.9
+  kfac_adaptivity: True
+  kfac_damping_adaptation_interval: 1
+  kfac_prevent_bad_updates: False
+  eigenvalue_transform_method: abs
+  curvature_ema: 0.95
+  damping_min: 1e-8

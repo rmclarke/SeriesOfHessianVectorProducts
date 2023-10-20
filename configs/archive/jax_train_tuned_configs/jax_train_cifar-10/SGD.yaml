@@ -1,0 +1,5 @@
+# validation_proportion: 0
+optimiser:
+  name: sgd
+  learning_rate: 0.03612649443
+batch_size: 400

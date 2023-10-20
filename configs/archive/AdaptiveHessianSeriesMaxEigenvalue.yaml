@@ -1,0 +1,21 @@
+optimiser:
+  name: HessianSeriesOptimiser
+  num_update_steps: 20
+  initial_scale_factor: 100
+  scale_factor_multiplier: 1.0
+  scale_factor_method: power_series
+  scale_factor_kwargs:
+    tolerance: 1e-5
+    max_num_steps: 100
+  acceleration_type: shanks
+  # acceleration_type: levin
+  acceleration_order: 1
+  acceleration_kwargs:
+    # transform_type: t
+    inverse_func: samelson
+    modifier: sablonniere
+  adaptive_update: True
+  hessian_damping_factor: 0.9
+  damping_min: 1e-8
+  initial_damping: 1
+  series_name: damped

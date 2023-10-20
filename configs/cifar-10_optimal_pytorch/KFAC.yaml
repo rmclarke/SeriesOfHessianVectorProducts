@@ -1,0 +1,12 @@
+optimiser:
+  name: kfac_jax
+  curvature_ema: 0.95
+  initial_damping: 2.228051523
+  l2_reg: 0
+  use_adaptive_learning_rate: True
+  use_adaptive_momentum: True
+  use_adaptive_damping: True
+  damping_adaptation_interval: 1
+  inverse_update_period: 1
+batch_size: 1600
+# validation_proportion: 0

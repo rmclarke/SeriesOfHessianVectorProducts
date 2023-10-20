@@ -1,0 +1,6 @@
+optimiser:
+  name: SelectiveNewtonSGD
+  learning_rate: 0.04465583201
+  small_eig_learning_rate: 0.005538993929
+  small_eigenvalue_threshold: 6.17e-7
+# validation_proportion: 0

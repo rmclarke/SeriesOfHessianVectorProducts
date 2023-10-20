@@ -1,0 +1,16 @@
+model:
+  name: MLP
+  output_sizes: [100, 1]
+  activation: relu
+  with_bias: True
+loss:
+  name: mse_loss
+dataset:
+  name: UCI_Energy
+  normalise_inputs: True
+  normalise_outputs: True
+  validation_proportion: 0.15
+
+num_epochs: 4000
+batch_size: 692 #614
+#seed: 5029382

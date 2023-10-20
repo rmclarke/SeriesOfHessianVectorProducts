@@ -1,0 +1,17 @@
+model:
+  name: MLP
+  output_sizes: [27, 26, 1]
+  activation: relu
+  with_bias: True
+loss:
+  name: mse_loss
+dataset:
+  name: UCI_Protein
+  normalise_inputs: True
+  normalise_outputs: True
+  validation_proportion: 0.15
+
+num_epochs: 4000
+batch_size: 256
+#batch_size: 41157
+#seed: 5029382

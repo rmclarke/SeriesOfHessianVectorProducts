@@ -1,0 +1,5 @@
+"""Local configuration for running experiments.
+
+Copy me to ./local_config.py and populate with local settings."""
+
+scratch_dir = None

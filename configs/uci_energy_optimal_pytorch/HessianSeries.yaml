@@ -1,0 +1,10 @@
+optimiser:
+  name: HessianSeriesOptimiser
+  learning_rate: 1.41468233448412
+  num_update_steps: 10
+  initial_scale_factor: 100
+  scale_factor_multiplier: 1.0
+  shanks_acceleration_order: 1
+  shanks_inverse_function: samelson
+  epsilon_modifier: sablonniere
+# validation_proportion: 0

@@ -1,0 +1,24 @@
+optimiser:
+  name: ObservedKFAC
+
+  kfac_kwargs:
+    damping_adaptation_decay: 0.9
+    curvature_ema: 0.95
+    initial_damping: 1.0
+    l2_reg: 0
+    use_adaptive_learning_rate: True
+    use_adaptive_momentum: True
+    use_adaptive_damping: True
+    damping_adaptation_interval: 1
+    inverse_update_period: 1
+
+  newton_kwargs:
+    initial_damping: 1.0
+    kfac_damping_factor: 0.9
+    kfac_adaptivity: True
+    kfac_damping_adaptation_interval: 1
+    kfac_prevent_bad_updates: False
+    eigenvalue_transform_method: abs
+    curvature_ema: 0.95
+    damping_min: 1e-5
+    damping_max: 1e3

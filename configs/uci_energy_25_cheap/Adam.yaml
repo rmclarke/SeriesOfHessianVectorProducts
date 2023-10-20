@@ -1,0 +1,7 @@
+optimiser:
+  name: adam
+  learning_rate: 0.0166273852
+  eps: 0.00000420336228
+  b1: 0.731529753
+  b2: 0.9906890024
+# validation_proportion: 0

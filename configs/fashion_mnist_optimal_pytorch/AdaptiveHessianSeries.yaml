@@ -1,0 +1,12 @@
+optimiser:
+  name: HessianSeriesOptimiser
+  num_update_steps: 10
+  initial_scale_factor: 100
+  scale_factor_multiplier: 1.0
+  shanks_acceleration_order: 2
+  shanks_inverse_function: samelson
+  epsilon_modifier: sablonniere
+  adaptive_update: True
+  hessian_damping_factor: 0.95
+  initial_lambda: 0.00046266663582150166
+batch_size: 400

@@ -1,0 +1,5 @@
+optimiser:
+  name: adam
+  learning_rate: 0.000369923167238056
+batch_size: 200
+# validation_proportion: 0
